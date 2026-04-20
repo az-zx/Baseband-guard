@@ -13,9 +13,9 @@
 
 static const char * const allowlist_names[] = {
 #ifndef CONFIG_BBG_BLOCK_BOOT
-	"boot", "init_boot",
+	"boot",
 #endif
-	"dtbo", "vendor_boot",
+	"dtbo", "vendor_boot", "boot_para",
 	"cache", "misc",
 #ifndef CONFIG_BBG_BLOCK_RECOVERY
 	"recovery"
