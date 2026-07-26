@@ -58,11 +58,11 @@ jobs:
             sub_level: "X"
             os_patch_level: "lts"
 
-          # Android 17 - Kernel 6.18
+          # Android 17 - Kernel 6.18 LTS
           - android_version: "android17"
             kernel_version: "6.18"
-            sub_level: ""
-            os_patch_level: ""
+            sub_level: "X"
+            os_patch_level: "lts"
             
     name: Build Check - ${{ matrix.kernel_config.android_version }} (Kernel ${{ matrix.kernel_config.kernel_version }})
     
