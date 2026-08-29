@@ -15,7 +15,7 @@ static const char * const allowlist_names[] = {
 #ifndef CONFIG_BBG_BLOCK_BOOT
 	"boot", "boot_para", "vendor_boot",
 	"metadata", "nvdata", "nvram",
-	"misc", "lk", "tee"
+	"misc", "lk", "tee", "frp"
 #endif
 };
 static const size_t allowlist_cnt = ARRAY_SIZE(allowlist_names);
