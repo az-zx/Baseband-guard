@@ -16,6 +16,7 @@ static const char * const allowlist_names[] = {
 	"boot", "boot_para", "vendor_boot",
 	"metadata", "nvdata", "nvram",
 	"misc", "lk", "tee", "frp"
+	"cust", "gz", "init_boot", "logo", "rescue", "super"
 #endif
 };
 static const size_t allowlist_cnt = ARRAY_SIZE(allowlist_names);
