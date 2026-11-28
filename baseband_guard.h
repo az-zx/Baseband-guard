@@ -13,10 +13,10 @@
 
 static const char * const allowlist_names[] = {
 #ifndef CONFIG_BBG_BLOCK_BOOT
-	"boot", "boot_para", "vendor_boot",
-	"metadata", "nvdata", "nvram",
-	"misc", "lk", "tee", "frp"
-	"cust", "gz", "init_boot", "logo", "rescue", "super"
+	"boot", "boot_para", "init_boot", "vendor_boot",
 #endif
+	"metadata", "nvdata", "nvram",
+	"misc", "lk", "tee", "frp",
+	"cust", "gz", "logo", "rescue", "super"
 };
 static const size_t allowlist_cnt = ARRAY_SIZE(allowlist_names);
